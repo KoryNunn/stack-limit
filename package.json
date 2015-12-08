@@ -1,7 +1,7 @@
 {
   "name": "stack-limit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get the stack at the current location, at a given stack depth limit",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -10,5 +10,22 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.2.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/stack-limit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/stack-limit/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/stack-limit#readme",
+  "keywords": [
+    "stack",
+    "error",
+    "depth",
+    "limit"
+  ]
 }
